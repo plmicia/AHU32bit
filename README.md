@@ -34,9 +34,9 @@ Dodanie menu "Pompa obiegowa" w którym można:
 - Ustawić parametry wyjścia PWM (częstotliwość PWM)
 W menu "Defrost" dodano możliwość ograniczenia czasu wymuszonego defrstu oraz dodano opóźnienie wyłączenia przekaźnika sygnalizującego defrost.
 
-W menu "Zabezpieczenia" można wybrać, kidy zabezpieczenie od przypływu ma być aktywne: "Zawsze", "Tylko gdy defrost" lub "Nigdy".
+W menu "Zabezpieczenia" można wybrać, kiedy zabezpieczenie od przepływu ma być aktywne: "Zawsze", "Tylko gdy defrost" lub "Nigdy".
 
-Dodano menu "Olejowanie" w którym można ustawić interwał olejowania, częstotliwośc (moc) sprężarki w czasi olejowania oraz czas trwania olejowania. Moża też wymusić olejowania w celach diagnostycznych.
+Dodano menu "Olejowanie" w którym można ustawić interwał olejowania, częstotliwośc (moc) sprężarki w czasie olejowania oraz czas trwania olejowania. Moża też wymusić olejowanie w celach diagnostycznych.
 
 Dodano menu "Odzysk czynnika".
 
