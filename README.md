@@ -2,6 +2,9 @@
 # AHU32bit 
 
 Heat Pump Controller
+https://youtu.be/T4DrFWYFrpU?si=GrnXhtAI3-qEB1rJ
+
+https://youtu.be/g_uAfUcfIxk?si=aBbPRCSxZJbn4i6s
 
 v1.0.0:
  
