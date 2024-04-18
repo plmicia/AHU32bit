@@ -50,3 +50,17 @@ Dodano menu "Odzysk czynnika".
 Poprawiono babole:
 - wysterowanie przekaźnika pompy obiegowej
 - zapisywanie do pamięci energii pobranej
+
+v1.3.4:
+- wprowadzono możliwość załącznia CO w zależności od t. zew. (w menu "Ustawienia CO")
+- wprowadzono możliwość załączenia pompy obiegowej na zawsze, gdy sterownik jest załączony (w menu "Pompa obiegowa")
+- poprawiono identyfikację agregatu 7kW 
+- poprawiono wyświetlanie wartości EEV-A i EEV-B dla 7kW
+- wprowadzono redukcję obrotów wentylatora przy wyższych temperaturach zewnętrznych dla agregatu 7kW
+
+Poprawka błędów:
+- ograniczono zakres nastaw maks. częstotliwość "łagodnego defrostu" od 56Hz do 85Hz
+- sporadycznie występujące samoczynne, chwilowe startowanie agregatu, gdy T_cond > 20*C (dot. nowszych jednostek Gree i C&H >2022)
+- wyeliminowanie problemów z wyłączaniem agregatu przed osiągnięciem temp zadanej (dot. nowszych jednostek Gree i C&H >2022)
+- wyeliminowanie błędu uniemożliwiającego wymuszenie defrostu, gdy T_cond < (T_zew - 6)
+- wyeliminowanie błędu uniemożliwiającego fabryczne wywołanie defrostu  
