@@ -63,4 +63,25 @@ Poprawka błędów:
 - sporadycznie występujące samoczynne, chwilowe startowanie agregatu, gdy T_cond > 20*C (dot. nowszych jednostek Gree i C&H >2022)
 - wyeliminowanie problemów z wyłączaniem agregatu przed osiągnięciem temp zadanej (dot. nowszych jednostek Gree i C&H >2022)
 - wyeliminowanie błędu uniemożliwiającego wymuszenie defrostu, gdy T_cond < (T_zew - 6)
-- wyeliminowanie błędu uniemożliwiającego fabryczne wywołanie defrostu  
+- wyeliminowanie błędu uniemożliwiającego fabryczne wywołanie defrostu
+
+v2.0.0:
+- dodano nagłówki, ułatwiające poruszanie się po menu
+- zmiana kroku nieczułości regulatorów CO i CWU z 0.5C na 0.1C
+- uruchomiono funkcję ciepłomierza (konieczny czujnik przepływu!)
+- rozdzielenie liczników energii: osobno dla CO i osobno dla CWU
+- uruchomiono liczniki COP (konieczny czujnik przepływu i licznik energii!)
+- dodano możliwość sterowniania pompy obiegowej PWM w trybie stałej delty (menu: "Pompa obiegowa" -> "Tryb pracy PWM" -> "Stała delta")
+- dodano stronę parametrów "Pompa obiegowa", gdzie można podejrzeć aktualny stan załączenia pompy obiegowej, wartości PWM i deltę.
+- dodano możliwość wywołania olejowania co 3h
+- zmieniono krok zadawania stałej mocy pracy pompy obiegowej PWM (było co 10%, jest co 1%)
+- poprawiono działania klawiszy + i -, dodając funkcję przytrzymania z autoinkrementacją. Po naszemu: przytrzymać dłużej przycisk, aby wartość sama się zwiększała lub zmniejszała
+- dodano menu "Liczniki", w którym można wyzerować wartość licznika energii, ilość defrostów, czas pracy sprężarki i ilość załączeń
+- wprowadzono dynamic clamping we wszystkich regulatorach PI (znacznie poprawia dynamikę sterowania)
+- uruchomiono zegar RTC
+Poprawka błędów:
+- wyeliminowanie błędu załączenia CWU wraz z blokadą załączenia CO od T_zew + dodanie ikonki sygnalizującej wyłączenia od temperatury zewnętrznej.
+- próba wyeliminowania błędu uniemożliwiającego wymuszenie defrostu (dot. nowszych jednostek Gree i C&H >2022)
+
+Uwaga!!! Aby liczniki energii działały prawidłowo, od teraz po każdej aktualizacji trzeba w pełni zrestartować system (zdjąć zasilanie z płytki bazowej na min. 20 sek.)
+
