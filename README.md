@@ -85,3 +85,7 @@ Poprawka błędów:
 
 Uwaga!!! Aby liczniki energii działały prawidłowo, od teraz po każdej aktualizacji trzeba w pełni zrestartować system (zdjąć zasilanie z płytki bazowej na min. 20 sek.)
 
+v2.0.1:
+
+Poprawka błędów:
+- aktywacja regulatora CWU
