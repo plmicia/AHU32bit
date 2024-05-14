@@ -93,4 +93,4 @@ Poprawka błędów:
 v2.0.2:
 
 Poprawka błędów:
-- Zapis wartości liczników do pamięci zaraz po zresetowaniu w menu.
+- Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
