@@ -89,3 +89,8 @@ v2.0.1:
 
 Poprawka błędów:
 - aktywacja regulatora CWU
+
+v2.0.2:
+
+Poprawka błędów:
+- Zapis wartości liczników do pamięci zaraz po zresetowaniu w menu.
