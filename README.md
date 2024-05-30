@@ -1,20 +1,19 @@
-
 # AHU32bit 
 
 Heat Pump Controller
 
 
 Jak połączyć AHU do sieci lokalnej?
-https://youtu.be/T4DrFWYFrpU?si=GrnXhtAI3-qEB1rJ
+https://youtu.be/T4DrFWYFrpU
 
 Jak zaktualizować firmware?
-https://youtu.be/g_uAfUcfIxk?si=aBbPRCSxZJbn4i6s
+https://youtu.be/g_uAfUcfIxk
 
-v1.0.0:
+### v1.0.0
  
 Wersja wyjściowa
 
-v1.1.1:
+### v1.1.1
 
 Dodanie menu "Wyświetlacz LCD" w którym można:
 - ustawić wartość podświetlenia
@@ -29,11 +28,11 @@ Poprawka drobnych błędów:
 - likwidacja, występującego czasami, stałego pisku przy wyłączaniu alarmu
 - zapis wartości nastawionej temperatury do pamięci przy zaniku zasilania
 
-v1.1.2:
+### v1.1.2
 
 - poprawka błędów
 
-v1.2.3:
+### v1.2.3
 
 Dodanie menu "Pompa obiegowa" w którym można:
 - Ustawić postcyrkulację (opóźnienie wyłączenia pompy obiegowej)
@@ -51,7 +50,8 @@ Poprawiono babole:
 - wysterowanie przekaźnika pompy obiegowej
 - zapisywanie do pamięci energii pobranej
 
-v1.3.4:
+### v1.3.4
+
 - wprowadzono możliwość załącznia CO w zależności od t. zew. (w menu "Ustawienia CO")
 - wprowadzono możliwość załączenia pompy obiegowej na zawsze, gdy sterownik jest załączony (w menu "Pompa obiegowa")
 - poprawiono identyfikację agregatu 7kW 
@@ -65,7 +65,8 @@ Poprawka błędów:
 - wyeliminowanie błędu uniemożliwiającego wymuszenie defrostu, gdy T_cond < (T_zew - 6)
 - wyeliminowanie błędu uniemożliwiającego fabryczne wywołanie defrostu
 
-v2.0.0:
+### v2.0.0
+
 - dodano nagłówki, ułatwiające poruszanie się po menu
 - zmiana kroku nieczułości regulatorów CO i CWU z 0.5C na 0.1C
 - uruchomiono funkcję ciepłomierza (konieczny czujnik przepływu!)
@@ -85,12 +86,12 @@ Poprawka błędów:
 
 Uwaga!!! Aby liczniki energii działały prawidłowo, od teraz po każdej aktualizacji trzeba w pełni zrestartować system (zdjąć zasilanie z płytki bazowej na min. 20 sek.)
 
-v2.0.1:
+### v2.0.1
 
 Poprawka błędów:
 - aktywacja regulatora CWU
 
-v2.0.2:
+### v2.0.2
 
 Poprawka błędów:
 - Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
