@@ -1,1 +1,0 @@
-https://github.com/FlyingDomotic/domoticz-mqttmapper-plugin
