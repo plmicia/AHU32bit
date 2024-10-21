@@ -94,3 +94,35 @@ v2.0.2:
 
 Poprawka błędów:
 - Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
+- 
+v3.0.5
+Video poradnik do aktualizacji: https://youtube.com/playlist?list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&si=gwIATBIfl5vukARS
+
+Płytka wyświetlacza LCD:
+- W menu "Ustawienia CO" dodano funkcję "Mniejsze taktowanie". Poprawia ona fabryczną procedurę zadawania częstotliwości sprężarki. Taktowanie jest jeszcze mniejsze, kosztem delikatnego przeregulowania w stanach dynamicznych. Załączenie funkcji pomaga wyeliminować wyłączenia sprężarki przy przełączaniu z CWU na CO oraz po "olejowaniu".
+- Wprowadzono funkcję wyłączenia pompy obiegowej, gdy sterownik jest wyłączony od temperatury zewnętrznej (gdy ikonka "słoneczka" na ekranie głównym jest aktywna). Poprawnie ustawiona funkcja pozwala na poprawę COP całego układu, szczególnie w okresach przejściowych. 
+- W menu "Liczniki" dodano możliwość wyboru pracy ciepłomierza: "Zawsze" lub "Gdy praca sprężarki". 
+- "Moc oddana" o wartości z zakresu od -100W do 100W jest wyświetlana jako "0W" (zero watt) i nie jest wykorzystywana do liczenia energii oddanej. 
+- Uporządkowano menu "Defrost". 
+- Proszę nie korzystać! TESTY: Dodano funkcję "Indywidualny defrost", gdzie można ustawić: interwał defrostów, zwłokę defrostu po osiągnięciu progu, próg rozpoczęcia defrostu, maksymalny czas defrostu, próg zakończenia defrostu. Funkcja ogranicza lub eliminuje całkowicie występowanie tzw. suchych lub technicznych defrostów. 
+- Dodano możliwość wprowadzenia offsetow w czujnikach temperatury w menu "Ust. czujników".
+- Dodano identyfikację jednostki GWH09 (3,5kW).
+- Wersję oprogramowania można sprawdzić w menu "Inne".
+- Tymczasowo wyłączona zostaje funkcja "łagodny defrost". Funkcja wymaga poprawek. 
+Poprawki błędów:
+- Strona "Energia": Gdy brak licznika energii pobranej w systemie, to "Moc pobrana" wyświetlana jest jako "0W", a nie "/W".
+- Poprawiono błąd, uniemożliwiający start jednostki gdy temperatura parownika (T_cond)<(-9*C).
+- Poprawiono drobne błędy w poruszaniu się po menu.
+
+Konsola:
+- Dodano obsługę MQTT
+- UWAGA! Wyłączono obsługę Telnet.
+- Dodano aplikację webową (AHU32bit Console) umożliwiającą podgląd parametrów online oraz podstawowe sterowanie w sieci lokalnej.
+- Wprowadzono możliwość ustawienia stałego IP. 
+
+Znane niedociągnięcia w konsoli:
+- jeśli AHU nie połączy się z routerem w ciągu około 1 min, np. po utracie zasilania w domu, to konieczne będzie kliknięcie przycisku "zresetuj komunikację" w konsoli
+
+Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
+
+MQTT dla Home Assistant wspaniale opisał @Łukasz Wojtas.
