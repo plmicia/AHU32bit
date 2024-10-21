@@ -108,7 +108,8 @@ Płytka wyświetlacza LCD:
 - Dodano możliwość wprowadzenia offsetow w czujnikach temperatury w menu "Ust. czujników".
 - Dodano identyfikację jednostki GWH09 (3,5kW).
 - Wersję oprogramowania można sprawdzić w menu "Inne".
-- Tymczasowo wyłączona zostaje funkcja "łagodny defrost". Funkcja wymaga poprawek. 
+- Tymczasowo wyłączona zostaje funkcja "łagodny defrost". Funkcja wymaga poprawek.
+  
 Poprawki błędów:
 - Strona "Energia": Gdy brak licznika energii pobranej w systemie, to "Moc pobrana" wyświetlana jest jako "0W", a nie "/W".
 - Poprawiono błąd, uniemożliwiający start jednostki gdy temperatura parownika (T_cond)<(-9*C).
