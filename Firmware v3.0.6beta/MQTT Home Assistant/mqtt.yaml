@@ -1,0 +1,656 @@
+sensor:
+
+  - name: "Częstotliwość aktualna"
+    unique_id: "czestotliwosc_aktualna"
+    state_topic: "AHU32bit/realtime/def_actual_freq"
+    device_class: frequency
+    state_class: measurement
+    unit_of_measurement: "Hz"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Częstotliwość zadana"
+    unique_id: "czestotliwosc_zadana"
+    state_topic: "AHU32bit/realtime/Compressor_command"
+    device_class: frequency
+    state_class: measurement
+    unit_of_measurement: "Hz"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Napiecie DC"
+    unique_id: "napiecie_dc"
+    state_topic: "AHU32bit/realtime/def_actual_dc_voltage"
+    device_class: voltage
+    state_class: measurement
+    unit_of_measurement: "V"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Prąd DC"
+    unique_id: "prad_dc"
+    state_topic: "AHU32bit/realtime/def_actual_current"
+    device_class: current
+    state_class: measurement
+    unit_of_measurement: "A"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Ilość załączeń"
+    unique_id: "ilosc_zalaczen"
+    state_topic: "AHU32bit/realtime/def_on_off_counter"
+    state_class: measurement
+    unit_of_measurement: "x"
+    icon: mdi:alpha-x
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Łączny czas pracy"
+    unique_id: "laczny_czas_pracy"
+    state_topic: "AHU32bit/realtime/def_operation_time"
+    state_class: measurement
+    unit_of_measurement: "h"
+    icon: mdi:progress-clock
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura zadana"
+    unique_id: "temperatura_zadana"
+    state_topic: "AHU32bit/realtime/Temp_Set_Command"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura zadana CO"
+    unique_id: "temperatura_zadana_co"
+    state_topic: "AHU32bit/realtime/Temp_Set_Command_CH"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura zadana CWU"
+    unique_id: "temperatura_zadana_cwu"
+    state_topic: "AHU32bit/realtime/def_DHW_set_value"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura zasilanie"
+    unique_id: "temperatura_zasilanie"
+    state_topic: "AHU32bit/realtime/Temp_Supply"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura powrót"
+    unique_id: "temperatura_powrot"
+    state_topic: "AHU32bit/realtime/Temp_Return"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura gaz"
+    unique_id: "temperatura_gaz"
+    state_topic: "AHU32bit/realtime/Temp_Gas"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura ciecz"
+    unique_id: "temperatura_ciecz"
+    state_topic: "AHU32bit/realtime/Temp_Liquid"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura pokojowa"
+    unique_id: "temperatura_pokojowa"
+    state_topic: "AHU32bit/realtime/Temp_Room"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura zewnętrzna"
+    unique_id: "temperatura_zewnetrzna"
+    state_topic: "AHU32bit/realtime/def_Temp_Out"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura parownik"
+    unique_id: "temperatura_parownik"
+    state_topic: "AHU32bit/realtime/def_Temp_Cond"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura sprężarki"
+    unique_id: "temperatura_sprezarki"
+    state_topic: "AHU32bit/realtime/def_Temp_Disch"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Temperatura falownik"
+    unique_id: "falownik"
+    state_topic: "AHU32bit/realtime/def_Temp_Module"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Moc pobrana"
+    unique_id: "moc_pobrana"
+    state_topic: "AHU32bit/realtime/power_consumed"
+    device_class: power
+    state_class: measurement
+    unit_of_measurement: "W"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Moc oddana"
+    unique_id: "moc_oddana"
+    state_topic: "AHU32bit/realtime/power_produced"
+    device_class: power
+    state_class: measurement
+    unit_of_measurement: "W"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Współczynnik COP"
+    unique_id: "wspolczynnik_cop"
+    state_topic: "AHU32bit/realtime/P_COP"
+    state_class: measurement
+    unit_of_measurement: "x"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Energia pobrana CO"
+    unique_id: "energia_pobrana_co"
+    state_topic: "AHU32bit/realtime/energy_CH_consumed"
+    device_class: energy
+    state_class: measurement
+    unit_of_measurement: "kWh"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Energia oddana CO"
+    unique_id: "energia_oddana_co"
+    state_topic: "AHU32bit/realtime/energy_CH_produced"
+    device_class: energy
+    state_class: measurement
+    unit_of_measurement: "kWh"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Współczynnik COP dla CO"
+    unique_id: "wspolczynnik_cop_dla_co"
+    state_topic: "AHU32bit/realtime/E_CH_COP"
+    state_class: measurement
+    unit_of_measurement: "x"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Energia pobrana CWU"
+    unique_id: "energia_pobrana_cwu"
+    state_topic: "AHU32bit/realtime/energy_DWH_consumed"
+    device_class: energy
+    state_class: measurement
+    unit_of_measurement: "kWh"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Energia oddana CWU"
+    unique_id: "energia_oddana_cwu"
+    state_topic: "AHU32bit/realtime/energy_DWH_produced"
+    device_class: energy
+    state_class: measurement
+    unit_of_measurement: "kWh"
+    icon: mdi:counter
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Współczynnik COP dla CWU"
+    unique_id: "wspolczynnik_cop_dla_cwu"
+    state_topic: "AHU32bit/realtime/E_DWH_COP"
+    state_class: measurement
+    unit_of_measurement: "x"
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Przepływ"
+    unique_id: "przeplyw"
+    state_topic: "AHU32bit/realtime/actual_flow"
+    state_class: measurement
+    unit_of_measurement: "l/h"
+    icon: mdi:waves-arrow-right
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Ilość defrostów"
+    unique_id: "ilosc_defrostow"
+    state_topic: "AHU32bit/realtime/def_defrost_counter"
+    state_class: measurement
+    unit_of_measurement: "x"
+    icon: mdi:snowflake-melt
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Aktualnie pod defrostem"
+    unique_id: "aktualnie_pod_defrostem"
+    state_topic: "AHU32bit/realtime/under_defrost_flag"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                TAk 
+                {% else %}
+                    Nie
+                {% endif %}
+    icon: mdi:snowflake-melt
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "PWM wyjśćie"
+    unique_id: "pwm_wyjscie"
+    state_topic: "AHU32bit/realtime/PWM_pump_duty"
+    state_class: measurement
+    unit_of_measurement: "%"
+    icon: mdi:chart-bell-curve
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+      
+  - name: "PWM wejście"
+    unique_id: "pwm_wejscie"
+    state_topic: "AHU32bit/realtime/PWM_in_duty"
+    state_class: measurement
+    unit_of_measurement: "%"
+    icon: mdi:chart-bell-curve
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Zadana delta"
+    unique_id: "zadana_delta"
+    state_topic: "AHU32bit/realtime/def_delta_command"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    icon: mdi:delta
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Aktualna delta"
+    unique_id: "aktualna_delta"
+    state_topic: "AHU32bit/realtime/Temp_delta"
+    device_class: temperature
+    state_class: measurement
+    unit_of_measurement: "°C"
+    icon: mdi:delta
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+# Sensor EEV dla agregatu < 7kV
+#  - name: "Zawór EEV"
+#    unique_id: "zawor_eev"
+#    state_topic: "AHU32bit/realtime/actual_EEV"
+#    state_class: measurement
+#    unit_of_measurement: "imp."
+#    icon: mdi:valve
+#    device:
+#      identifiers: "AHU32bit"
+#      manufacturer: "FabLabPro"
+#      name: "AHU32bit"
+#      model: "AHU32bit"
+
+# Sensor EEV-A dla agregatu 7kV
+  - name: "Zawór EEV-A"
+    unique_id: "zawor_eev_a"
+    state_topic: "AHU32bit/realtime/actual_EEV_A"
+    state_class: measurement
+    unit_of_measurement: "imp."
+    icon: mdi:valve
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+# Sensor EEV-B dla agregatu 7kV
+  - name: "Zawór EEV-B"
+    unique_id: "zawor_eev_b"
+    state_topic: "AHU32bit/realtime/actual_EEV_B"
+    state_class: measurement
+    unit_of_measurement: "imp."
+    icon: mdi:valve
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Wentylator ODU"
+    unique_id: "wentylator_odu"
+    state_topic: "AHU32bit/realtime/def_actual_ODU_fan"
+    state_class: measurement
+    unit_of_measurement: "rpm"
+    icon: mdi:fan
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Przepływ RAW"
+    unique_id: "przeplyw_raw"
+    state_topic: "AHU32bit/realtime/raw_pulses_Flow"
+    state_class: measurement
+    unit_of_measurement: "imp."
+    icon: mdi:waves-arrow-right
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Blokada załączenia"
+    unique_id: "blokada_zalaczenia"
+    state_topic: "AHU32bit/realtime/def_power_lock"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                TAk 
+                {% else %}
+                    Nie
+                {% endif %}
+    icon: mdi:lock-alert
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Typ ODU"
+    unique_id: "typ_odu"
+    state_topic: "AHU32bit/realtime/ODU_type"
+    value_template: >
+                {% if value|float(0) == 0 %}
+                Nie rozpoznany 
+                {% elif value |float(0) == 1 %}
+                GWH09YD
+                {% elif value |float(0) == 2 %}
+                GWH12YD
+                {% elif value |float(0) == 3 %}
+                GWH18YE
+                {% elif value |float(0) == 4 %}
+                GWH24YE
+                {% elif value |float(0) == 5 %}
+                GWH18(new) 
+                {% endif %}
+    icon: mdi:information-box
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Flaga olejowania"
+    unique_id: "flaga_olejowania"
+    state_topic: "AHU32bit/realtime/oil_recovery_flag"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                TAk 
+                {% else %}
+                    Nie
+                {% endif %}
+    icon: mdi:oil
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+      
+  - name: "Flaga odzysku czynnika"
+    unique_id: "flaga_odzysku_czynnika"
+    state_topic: "AHU32bit/realtime/gas_recovery_flag"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                TAk 
+                {% else %}
+                    Nie
+                {% endif %}
+    icon: mdi:water-sync
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Flaga krzywej grzewczej"
+    unique_id: "flaga_krzywej_grzewczej"
+    state_topic: "AHU32bit/realtime/def_weather_curve"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                Nie 
+                {% else %}
+                Tak
+                {% endif %}
+    icon: mdi:finance
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+
+
+  - name: "Flaga krzywej grzewczej"
+    unique_id: "flaga_krzywej_grzewczej"
+    state_topic: "AHU32bit/realtime/def_weather_curve"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                Nie 
+                {% else %}
+                Tak
+                {% endif %}
+    icon: mdi:finance
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Flaga wył. od temp. zew"
+    unique_id: "flaga_wyl_od_temp_zew"
+    state_topic: "AHU32bit/realtime/CH_active_flag"
+    value_template: >
+                {% if value|float(0) > 0 %}
+                Nie 
+                {% else %}
+                Tak
+                {% endif %}
+    icon: mdi:sun-thermometer
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+switch:
+  - name: "Stan sterownika"
+    unique_id: "stan_sterownika"
+    state_topic: "AHU32bit/realtime/def_power_state"
+    command_topic: "AHU32bit/realtime/def_power_state"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:tablet
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Wejście CO"
+    unique_id: "wejscie_co"
+    state_topic: "AHU32bit/realtime/IN_CH_ON"
+    command_topic: "AHU32bit/realtime/IN_CH_O"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:heat-wave
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"
+
+  - name: "Wejście CWU"
+    unique_id: "wejscie_cwu"
+    state_topic: "AHU32bit/realtime/IN_DHW_ON"
+    command_topic: "AHU32bit/realtime/IN_DHW_ON"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:water-pump
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"        
+
+  - name: "Pompa obiegowa"
+    unique_id: "pompa_obiegowa"
+    state_topic: "AHU32bit/realtime/OUT_Pump_REQUEST"
+    command_topic: "AHU32bit/realtime/OUT_Pump_REQUEST"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:heat-pump
+    device:
+      identifiers: "AHU32bit"
+      manufacturer: "FabLabPro"
+      name: "AHU32bit"
+      model: "AHU32bit"        
