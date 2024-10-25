@@ -127,3 +127,19 @@ Znane niedociągnięcia w konsoli:
 Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
 
 MQTT dla Home Assistant wspaniale opisał @Łukasz Wojtas.
+
+v3.0.6
+
+Płytka wyświetlacza LCD:
+- Poprawione wyświetlanie "PWM in" w konsoli i MQTT. Poprzednio wartość była odświeżana tylko gdy na LCD była wyświetlona strona "Pompa obiegowa". 
+- Poprawiono zapisywanie wartości parametru "Licz ciepło i moc" z menu "liczniki" do pamięci nieulotnej.
+- Wprowadzono możliwość podania wartości przełączenia biegów wentylatora JZ przy pracy CO. 
+- Organiczno zakres nastaw czujnika przepływu do 1...1000imp/l
+- Do menu "Ustawienia CO" wprowadzono możliwość ustawienie progów zmiany obrotów wentylator jednostki zewnętrznej: "Próg 390/450(490)rpm" oraz "Próg 490/690(790)rpm". Histereza jest stała i wynosi 1C.
+
+Konsola:
+- Zmieniono nazwę klienta Mqtt z esp8266client-xxxx na AHU32bit_Client_xxxx
+- Poprawiono literówka w słowie "Sprężarka" w zakładce "temperatury".
+- Poprawiono wskaźnik temperatury "Falownik" dla jednostki 5kW.
+- Wersja konsoli jest wyświetlana w zakładce "Inne"
+
