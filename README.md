@@ -143,3 +143,29 @@ Konsola:
 - Poprawiono wskaźnik temperatury "Falownik" dla jednostki 5kW.
 - Wersja konsoli jest wyświetlana w zakładce "Inne"
 
+v3.0.11
+
+UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
+Video prodanik: 
+
+Płytka wyświetlacza LCD:
+- Dodano obsługę GWH12
+- Dodano obsługę CH-S24FTXAL-WP
+- Dodano zapis parametrów do pamięci przed aktualizacja. 
+- Zmieniono nazwy temperatur w zakładce 'temperatury' na polskie. 
+- Dodano zabezpieczenie od zamarznięcia parownika. Jeśli różnica temperatury między parownikiem a zewnętrzną przekracza próg z menu ORAZ utrzymuje się przez czas ustawiony w menu, to agregat się wyłączy. Dostępne nastawy zabezpieczenia w menu: 
+"Min. delta par.-zew.:" oraz "Min. czas błędu par.:"
+Zmieniono dostępne nastawy dla pracy pompy obiegowej: 
+"Zawsze gdy ON"
+"Gdy praca sprężarki"
+"Gdy żądanie CO/CWU"
+- Dodano włączenie pompy obiegowej zawsze przy olejowaniu
+- Gdy defrost aktywny, to zawór 3D (przekaźnik AUX) zostaje wyłączony. W ten sposób defrost zawsze robiony jest na zład CO.
+- Poprawka wysterowania pompy PWM po błędzie zaniku przepływu. 
+BYŁO: wartość wynikająca z regulatora delty lub aktualnie ustawiona stała moc.
+JEST: 100% mocy
+- Zmieniono komendę włączającą najwyższe obroty wentylatora. Lepsza praca przy wyższych mocach i niższych temperaturach.
+
+Konsola:
+- W zakładce "Sprężarka" dodano do zegara wyświetlanie częstotliwości zadawanej przez AHU.
+- W zakładce "Inne" wyświetlana jest wersja software dla LCD oraz Konsoli.
