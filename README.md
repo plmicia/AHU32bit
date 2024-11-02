@@ -146,7 +146,7 @@ Konsola:
 v3.0.11
 
 UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
-Video prodanik: 
+Video pordanik: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
 
 Płytka wyświetlacza LCD:
 - Dodano obsługę GWH12
