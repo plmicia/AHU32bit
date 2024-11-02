@@ -153,9 +153,10 @@ Płytka wyświetlacza LCD:
 - Dodano obsługę CH-S24FTXAL-WP
 - Dodano zapis parametrów do pamięci przed aktualizacja. 
 - Zmieniono nazwy temperatur w zakładce 'temperatury' na polskie. 
-- Dodano zabezpieczenie od zamarznięcia parownika. Jeśli różnica temperatury między parownikiem a zewnętrzną przekracza próg z menu ORAZ utrzymuje się przez czas ustawiony w menu, to agregat się wyłączy. Dostępne nastawy zabezpieczenia w menu: 
+- Dodano zabezpieczenie od zamarznięcia parownika. Jeśli różnica temperatury między parownikiem a zewnętrzną przekracza próg z menu ORAZ utrzymuje się przez czas ustawiony w menu, to agregat się wyłączy. Dostępne nastawy w menu "Zabezpieczenia": 
 "Min. delta par.-zew.:" oraz "Min. czas błędu par.:"
-Zmieniono dostępne nastawy dla pracy pompy obiegowej: 
+Alarm sygnalizowany jest na ekranie: Err!(T*)
+- Zmieniono dostępne nastawy dla pracy pompy obiegowej: 
 "Zawsze gdy ON"
 "Gdy praca sprężarki"
 "Gdy żądanie CO/CWU"
