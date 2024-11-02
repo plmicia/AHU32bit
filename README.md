@@ -166,7 +166,10 @@ Alarm sygnalizowany jest na ekranie: Err!(T*)
 BYŁO: wartość wynikająca z regulatora delty lub aktualnie ustawiona stała moc.
 JEST: 100% mocy
 - Zmieniono komendę włączającą najwyższe obroty wentylatora. Lepsza praca przy wyższych mocach i niższych temperaturach.
+- Dodano funkcję zapisującą przed aktualizacją aktualne wartości liczników do pamięci.
 
 Konsola:
 - W zakładce "Sprężarka" dodano do zegara wyświetlanie częstotliwości zadawanej przez AHU.
 - W zakładce "Inne" wyświetlana jest wersja software dla LCD oraz Konsoli.
+
+Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
