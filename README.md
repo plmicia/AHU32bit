@@ -151,8 +151,8 @@ Video pordanik: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
 Płytka wyświetlacza LCD:
 - Dodano obsługę GWH12
 - Dodano obsługę CH-S24FTXAL-WP
-- Dodano zapis parametrów do pamięci przed aktualizacja. 
-- Zmieniono nazwy temperatur w zakładce 'temperatury' na polskie. 
+- Dodano zapis parametrów do pamięci przed aktualizacją 
+- Zmieniono nazwy temperatur w zakładce 'temperatury' na polskie
 - Dodano zabezpieczenie od zamarznięcia parownika. Jeśli różnica temperatury między parownikiem a zewnętrzną przekracza próg z menu ORAZ utrzymuje się przez czas ustawiony w menu, to agregat się wyłączy. Dostępne nastawy w menu "Zabezpieczenia": 
 "Min. delta par.-zew.:" oraz "Min. czas błędu par.:"
 Alarm sygnalizowany jest na ekranie: Err!(T*)
