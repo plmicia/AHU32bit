@@ -184,7 +184,7 @@ oraz
 2. Włączyć w menu "Defrost" - > "Własny profil" -> "Aktywny" na TAK
 Indywidualny defrost jest dwufazowy: Domyślnie: faza pierwsza ok. 45Hz, około 3 min, faza II: 65Hz, też około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
 Defrost indywidualny jest sygnalizowany na ekranie głównym napisem 'CUSTOM' pod ikoną śnieżynką. Natomiast odliczany czas minimalny czas do kolejnego defrostu, widoczny jest w zakładce "Defrost". 
-- Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu.
+- Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją funkcją "Własny profil".
 
 v3.1.3
 
