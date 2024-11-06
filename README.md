@@ -217,6 +217,8 @@ Odliczany maksymalny czas do zakończenia trwającego defrostu, widoczny jest w 
 Praca sprężarki podczas defrostu indywidualnego rozpoczyna się po około 3 min, od ukazanie się ikonki sygnalizującej defrost ("śnieżynka").
 Przełączenie na grzania po zakończeniu defrostu trwa około 3 min.
 
+Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualny defrost". Na rozpoczęcie fazy I defrostu trzeba poczekać około 3min.
+
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
 v3.1.3
