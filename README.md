@@ -185,11 +185,44 @@ Aby aktywować w pełni "Indywidualny defrost" należy:
 1. Włączyć w menu "Defrost" - > "Indywidualny defrost" -> "Aktywny" na TAK
 oraz
 2. Włączyć w menu "Defrost" - > "Własny profil" -> "Aktywny" na TAK
-Indywidualny defrost jest dwufazowy: Domyślnie: faza pierwsza ok. 45Hz, około 3 min, faza II: 65Hz, też około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
-Defrost indywidualny jest sygnalizowany na ekranie głównym napisem 'CUSTOM' pod ikoną śnieżynką. Natomiast odliczany minimalny czas do kolejnego defrostu, widoczny jest w zakładce "Defrost". 
+Indywidualny defrost jest dwufazowy:
+a) faza pierwsza ok. 45Hz, około 3 min,
+b) faza II: 65Hz, około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
+
+Dostępne parametry w menu "Indywidualny defrost":
+- "Interwał:" czas po którym AHU zacznie sprawdzać temperaturowy próg wyzwolenia defrostu. Wartość domyślna: 90 min. (1,5h).
+- "Start defrsotu:" próg temperaturowy wyzwolenia defrostu. Wartość domyślna: -4C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą zewnetrzną, a temperaturą parownika!!!
+- "Maks. czas defrostu:" czas po którym defrost zostanie ukończony, bez względu na uzyskoną temperaturę parownika. Wartość domyślna: 10 min. Wartość powinna być większa niż suma: 3min + "Faza I (sek.):" + "Faza II (sek.):"
+- "Koniec defrostu:" osiągnięcie tej temperatury na parowniku zakończy defrost. Wartość domyślna: 20C
+- "Faza I (Hz):" częstotliwość sprężarki podczas fazy I defrostu. Wartość domyślna: 45Hz.
+- "Faza I (sek.):" czas trwania fazy I defrostu. Wartość domyślna: 180sek. (3 min)
+- "Faza II (Hz):" częstotliwość sprężarki podczas fazy II defrostu. Wartość domyślna: 65Hz.
+- "Faza II (sek.):" czas trwania fazy II defrostu. Wartość domyślna: 180sek. (3 min)
+
+Wartości domyślne, są zbliżone do fabrycznech. Jeśli defrosty mają być wykonywane częściej, należy zmniejszyć wartość "Interwał" np. z 120 min do 90 min lub zwiększyć wartość "Start defrostu" (np. zamiast wartości -4C ustawić -3C).
+Jeśli defrost ma przebiegać łagodniej, to należy poeksperymentować z nastawami: "Faza I (Hz):" oraz "Faza II (Hz):". Proszę pamiętać, że zminiejszenie tej wartości może spowodować konieczność wydłużenia defrostu (nastaw: "Faza I (sek.):", "Faza II (sek.):" oraz "Maks. czas defrostu:"
+
+Dodatkowo warto zweyfikować nastawy zabezpieczeń w menu "Zabezpieczenia":
+- "Minimalna tempeartura rury cieczowej:" próg zadziałania zabezpieczenia od za niskiej temperatury na rurze cieczowej. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: -5C.
+- "Minimalny przepływ:" próg zadziałania zabezpieczenia od za niskiego przepływu. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: 500l/h.
+- "Minimlany czas błędu:" po tym czasie od przekroczenia progu błędu, zostanie zasygnalizowany błąd. Wartość domyślna: 2s. Wartość zalecana: 1-5s.
+- "Minimalna delta parownik-zewnętrzna:" próg temperaturowy wyzwolenia zabezpieczenia od zamarznięcia parownika. Wartość domyślna: -10C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą zewnetrzną, a temperaturą parownika!!!
+- "Minimalny czas błędu parownik-zewnętrzna" po tym czasie od przekroczenia progu błędu "Minimalna delta parownik-zewnętrzna:", zostanie zasygnalizowany błąd. Wartość domyślna: 90s (1,5h). Wartość zalecana: dłuższa lub równa "Interwał:" w menu "Indywidualny defrost".
+- 
+Zaleca się ustawić "Postcyrkulację" na minimum 5 min. w menu "Pompa obiegowa".
+
+Defrost indywidualny jest sygnalizowany na ekranie głównym napisem 'CUSTOM' pod ikoną śnieżynką, w momencie jego trwania. 
+Odliczany minimalny czas do kolejnego defrostu, widoczny jest w zakładce "Defrost".
+Odliczany maksymalny czas do zakończenia trwającego defrostu, widoczny jest w zakładce "Defrost".
+Praca sprężarki podczas defrostu indywidualnego rozpoczyna się po około 3 min, od ukazanie się ikonki sygnalizującej defrost ("śnieżynka").
+Przełączenie na grzania po zakończeniu defrostu trwa około 3 min.
+
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
 v3.1.3
+Aktualizacja od wersji 1.x.x lub 2.x.x :https://www.youtube.com/watch?v=skZjCgosQtY&list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&index=1&t=78s
+Aktualizacja od wersji: 3.x.x: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
+UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
 
 Płytka wyświetlacza LCD:
 - Zmodyfikowano sposób wyświetlania wartości czasu do kolejengo defrostu w zakładce "Defrost". 
