@@ -190,7 +190,7 @@ a) faza pierwsza ok. 45Hz, około 3 min,
 b) faza II: 65Hz, około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
 
 Dostępne parametry w menu "Indywidualny defrost":
-- "Interwał:" czas po którym AHU zacznie sprawdzać temperaturowy próg wyzwolenia defrostu. Wartość domyślna: 90 min. (1,5h).
+- "Interwał:" czas po którym AHU zacznie sprawdzać temperaturowy próg wyzwolenia defrostu (parametr: "Start defrsotu:"). Wartość domyślna: 90 min. (1,5h).
 - "Start defrsotu:" próg temperaturowy wyzwolenia defrostu. Wartość domyślna: -4C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą zewnetrzną, a temperaturą parownika!!!
 - "Maks. czas defrostu:" czas po którym defrost zostanie ukończony, bez względu na uzyskoną temperaturę parownika. Wartość domyślna: 10 min. Wartość powinna być większa niż suma: 3min + "Faza I (sek.):" + "Faza II (sek.):"
 - "Koniec defrostu:" osiągnięcie tej temperatury na parowniku zakończy defrost. Wartość domyślna: 20C
