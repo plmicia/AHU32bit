@@ -185,6 +185,7 @@ Aby aktywować w pełni "Indywidualny defrost" należy:
 1. Włączyć w menu "Defrost" - > "Indywidualny defrost" -> "Aktywny" na TAK
 oraz
 2. Włączyć w menu "Defrost" - > "Własny profil" -> "Aktywny" na TAK
+
 Indywidualny defrost jest dwufazowy:
 a) faza pierwsza ok. 45Hz, około 3 min,
 b) faza II: 65Hz, około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
