@@ -181,6 +181,7 @@ v3.1.2
 
 Płytka wyświetlacza LCD:
 - Uruchomiono funkcję "Indywidualny defrost" w której można indywidualnie sprofilować przegieg defrostu (łagodnie/agresywnie, itp.).
+
 Aby aktywować w pełni "Indywidualny defrost" należy: 
 1. Włączyć w menu "Defrost" - > "Indywidualny defrost" -> "Aktywny" na TAK
 oraz
