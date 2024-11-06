@@ -207,3 +207,7 @@ JEST: pozostaje poprzednia wartość
 
 - Wzmocniono filtrowanie progów błędu od za niskiej temperatury, przepływu i delty zew.-parownik.
 
+Konsola:
+
+- poprawiono layout zakładki "Inne" (wyświetlanie kafelka z wersją oprogramowania)
+
