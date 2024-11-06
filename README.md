@@ -21,8 +21,11 @@ Dodanie menu "Wyświetlacz LCD" w którym można:
 - ustawić wygaszenie podświetlenia po czasie
 - ustawić wartość podświetlenia po wygaszeniu
 - zał./wył. wyświetlanie częstotliwości pracy sprężarki na ekranie głównym
+  
 Dodanie możliwości zablokowania klawiatury poprzez przytrzymanie (~1s) dwóch środkowych przycisków.
+
 Dodanie dłuższego (~1s) przytrzymania przycisku ON/OFF (ochrona przed przypadkowym naciśnięciem).
+
 Możliwość kalibracji czułości przycisków z poziomu konsoli AHU32bit.
 
 Poprawka drobnych błędów:
