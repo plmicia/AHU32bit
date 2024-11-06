@@ -209,6 +209,6 @@ JEST: pozostaje poprzednia wartość
 
 Konsola:
 
-- poprawiono layout zakładki "Inne" (wyświetlanie kafelka z wersją oprogramowania)
+- poprawiono layout zakładki "Inne" na urządzeniach mobilnych (wyświetlanie kafelka z wersją oprogramowania)
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
