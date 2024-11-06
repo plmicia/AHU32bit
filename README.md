@@ -191,7 +191,7 @@ b) faza II: 65Hz, około 3 min lub szybciej, jeżeli temperatura parownika >20C 
 
 Dostępne parametry w menu "Indywidualny defrost":
 - "Interwał:" czas po którym AHU zacznie sprawdzać temperaturowy próg wyzwolenia defrostu (parametr: "Start defrsotu:"). Wartość domyślna: 90 min. (1,5h).
-- "Start defrsotu:" próg temperaturowy wyzwolenia defrostu. Wartość domyślna: -4C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą zewnetrzną, a temperaturą parownika!!!
+- "Start defrsotu:" próg temperaturowy wyzwolenia defrostu. Wartość domyślna: -4C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą parownika, a temperaturą zewnętrzną!!!
 - "Maks. czas defrostu:" czas po którym defrost zostanie ukończony, bez względu na uzyskoną temperaturę parownika. Wartość domyślna: 10 min. Wartość powinna być większa niż suma: 3min + "Faza I (sek.):" + "Faza II (sek.):"
 - "Koniec defrostu:" osiągnięcie tej temperatury na parowniku zakończy defrost. Wartość domyślna: 20C
 - "Faza I (Hz):" częstotliwość sprężarki podczas fazy I defrostu. Wartość domyślna: 45Hz.
@@ -206,7 +206,7 @@ Dodatkowo warto zweyfikować nastawy zabezpieczeń w menu "Zabezpieczenia":
 - "Minimalna tempeartura rury cieczowej:" próg zadziałania zabezpieczenia od za niskiej temperatury na rurze cieczowej. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: -5C.
 - "Minimalny przepływ:" próg zadziałania zabezpieczenia od za niskiego przepływu. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: 500l/h.
 - "Minimlany czas błędu:" po tym czasie od przekroczenia progu błędu, zostanie zasygnalizowany błąd. Wartość domyślna: 2s. Wartość zalecana: 1-5s.
-- "Minimalna delta parownik-zewnętrzna:" próg temperaturowy wyzwolenia zabezpieczenia od zamarznięcia parownika. Wartość domyślna: -10C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą zewnetrzną, a temperaturą parownika!!!
+- "Minimalna delta parownik-zewnętrzna:" próg temperaturowy wyzwolenia zabezpieczenia od zamarznięcia parownika. Wartość domyślna: -10C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą parownika, a temperaturą zewnętrzną!!!
 - "Minimalny czas błędu parownik-zewnętrzna" po tym czasie od przekroczenia progu błędu "Minimalna delta parownik-zewnętrzna:", zostanie zasygnalizowany błąd. Wartość domyślna: 90s (1,5h). Wartość zalecana: dłuższa lub równa "Interwał:" w menu "Indywidualny defrost".
 - 
 Zaleca się ustawić "Postcyrkulację" na minimum 5 min. w menu "Pompa obiegowa".
