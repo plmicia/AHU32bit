@@ -197,9 +197,9 @@ JEST: wartość w formacie HH:MM:SS
 BYŁO: wartość w sekundach
 JEST: wartość w formacie MM:SS
 
-- Dodano możliwość wyboru sposobu raportowania T gaz do JZ w menu "Ust. czujników":
-a) Tylko T gaz - AHU raportuje do JZ T gaz jako rzeczywistą pomierzoną wartość, bezpośrednio z czujnika
-b) Średnia T gaz i T ciecz - AHU raportuje do JZ T gaz, jako średnią ważoną pomiaru T gaz oraz T ciecz. Wagi również można ustawić w menu 
+- Dodano możliwość wyboru sposobu raportowania T gaz do JZ w menu "Ust. czujników"->"Pomiar T gaz"->"Sposób pomiaru":
+a) "Tylko T gaz" - AHU raportuje do JZ T gaz jako rzeczywistą pomierzoną wartość, bezpośrednio z czujnika
+b) "Średnia T gaz i T ciecz" - AHU raportuje do JZ T gaz, jako średnią ważoną pomiaru T gaz oraz T ciecz. Wagi również można ustawić w menu 
 
 - Odliczanie do kolejnego defrostu:
 BYŁO: resetowanie po wystąpieniu błędu (odliczanie od początku)
