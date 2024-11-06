@@ -173,3 +173,37 @@ Konsola:
 - W zakładce "Inne" wyświetlana jest wersja software dla LCD oraz Konsoli.
 
 Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
+
+v3.1.2
+
+Płytka wyświetlacza LCD:
+- Uruchomiono funkcję "Indywidualny defrost" w której można indywidualnie sprofilować przegieg defrostu (łągodnie/agresywnie, itp.).
+Aby aktywować w pełni "Indywidualny defrost" należy: 
+1. Włączyć w menu "Defrost" - > "Indywidualny defrost" -> "Aktywny" na TAK
+oraz
+2. Włączyć w menu "Defrost" - > "Własny profil" -> "Aktywny" na TAK
+Indywidualny defrost jest dwufazowy: Domyślnie: faza pierwsza ok. 45Hz, około 3 min, faza II: 65Hz, też około 3 min lub szybciej, jeżeli temperatura parownika >20C (lub inna nastawiona).
+Defrost indywidualny jest sygnalizowany na ekranie głównym napisem 'CUSTOM' pod ikoną śnieżynką. Natomiast odliczany czas minimalny czas do kolejnego defrostu, widoczny jest w zakładce "Defrost". 
+- Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu.
+
+v3.1.3
+
+Płytka wyświetlacza LCD:
+- Zmodyfikowano sposób wyświetlania wartości czasu do kolejengo defrostu w zakładce "Defrost". 
+BYŁO: wartość w sekundach
+JEST: wartość w formacie HH:MM:SS
+
+- Zmodyfikowano sposób wyświetlania wartości czasu do zakończenia defrostu w zakładce "Defrost". 
+BYŁO: wartość w sekundach
+JEST: wartość w formacie MM:SS
+
+- Dodano możliwość wyboru sposobu raportowania T gaz do JZ w menu "Ust. czujników":
+a) Tylko T gaz - AHU raportuje do JZ T gaz jako rzeczywistą pomierzoną wartość, bezpośrednio z czujnika
+b) Średnia T gaz i T ciecz - AHU raportuje do JZ T gaz, jako średnią ważoną pomiaru T gaz oraz T ciecz. Wagi również można ustawić w menu 
+
+- Odliczanie do kolejnego defrostu:
+BYŁO: resetowanie po wystąpieniu błędu (odliczanie od początku)
+JEST: pozostaje poprzednia wartość
+
+- Wzmocniono filtrowanie progów błędu od za niskiej temperatury, przepływu i delty zew.-parownik.
+
