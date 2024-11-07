@@ -201,7 +201,10 @@ Dostępne parametry w menu "Indywidualny defrost":
 - "Faza II (Hz):" częstotliwość sprężarki podczas fazy II defrostu. Wartość domyślna: 65Hz.
 - "Faza II (sek.):" czas trwania fazy II defrostu. Wartość domyślna: 180sek. (3 min)
 
-Wartości domyślne, są zbliżone do fabrycznych. Jeśli defrosty mają być wykonywane częściej, należy zmniejszyć wartość "Interwał" np. z 90 min do 75 min lub zmienić wartość "Start defrostu" (np. zamiast wartości -4C ustawić -3C).
+Wartości domyślne, są zbliżone do fabrycznych. 
+
+Jeśli defrosty mają być wykonywane częściej, należy zmniejszyć wartość "Interwał" np. z 90 min do 75 min lub zmienić wartość "Start defrostu" (np. zamiast wartości -4C ustawić -3C).
+Jeśli defrosty mają być wykonywane rzadziej, należy zwiększyć wartość "Interwał" np. z 90 min do 120 min lub zmienić wartość "Start defrostu" (np. zamiast wartości -4C ustawić -6C).
 Jeśli defrost ma przebiegać łagodniej, to należy poeksperymentować z nastawami: "Faza I (Hz):" oraz "Faza II (Hz):". Proszę pamiętać, że zminiejszenie tej wartości może spowodować konieczność wydłużenia defrostu (nastaw: "Faza I (sek.):", "Faza II (sek.):" oraz "Maks. czas defrostu:"
 
 Dodatkowo warto zweryfikować nastawy zabezpieczeń w menu "Zabezpieczenia":
@@ -209,7 +212,7 @@ Dodatkowo warto zweryfikować nastawy zabezpieczeń w menu "Zabezpieczenia":
 - "Minimalny przepływ:" próg zadziałania zabezpieczenia od za niskiego przepływu. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: 500l/h.
 - "Minimlany czas błędu:" po tym czasie od przekroczenia progu błędu, zostanie zasygnalizowany błąd. Wartość domyślna: 2s. Wartość zalecana: 1-5s.
 - "Minimalna delta parownik-zewnętrzna:" próg temperaturowy wyzwolenia zabezpieczenia od zamarznięcia parownika. Wartość domyślna: -10C. UWAGA! Nie jest to żadna wartość bezwzględna. Jest to różnica temperatur między temperaturą parownika, a temperaturą zewnętrzną!!!
-- "Minimalny czas błędu parownik-zewnętrzna" po tym czasie od przekroczenia progu błędu "Minimalna delta parownik-zewnętrzna:", zostanie zasygnalizowany błąd. Wartość domyślna: 90s (1,5h). Wartość zalecana: dłuższa lub równa "Interwał:" w menu "Indywidualny defrost".
+- "Minimalny czas błędu parownik-zewnętrzna" po tym czasie od przekroczenia progu błędu "Minimalna delta parownik-zewnętrzna:", zostanie zasygnalizowany błąd. Wartość domyślna: 90 min (1,5h). Wartość zalecana: dłuższa lub równa "Interwał:" w menu "Indywidualny defrost".
 
 Zaleca się ustawić "Postcyrkulację" na minimum 5 min. w menu "Pompa obiegowa".
 
