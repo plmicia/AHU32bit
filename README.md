@@ -227,8 +227,10 @@ Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualn
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
 v3.1.3
+
 Aktualizacja od wersji 1.x.x lub 2.x.x :https://www.youtube.com/watch?v=skZjCgosQtY&list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&index=1&t=78s
 Aktualizacja od wersji: 3.x.x: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
+
 UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
 
 Płytka wyświetlacza LCD:
