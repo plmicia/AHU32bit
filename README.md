@@ -224,6 +224,8 @@ Przełączenie na grzania po zakończeniu defrostu trwa około 3 min.
 
 Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualny defrost". Na rozpoczęcie fazy I defrostu trzeba poczekać około 3min.
 
+"Defrost indywidualny" nie powoduje blokowania defrostu fabrycznego. Jeśli agregat uzna, że musi wykonać "suchy" lub "techniczny" defrost to go wykona.
+
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
 v3.1.3
