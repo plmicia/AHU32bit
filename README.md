@@ -226,7 +226,7 @@ Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualn
 
 "Defrost indywidualny" nie powoduje blokowania defrostu fabrycznego. Jeśli agregat uzna, że musi wykonać "suchy" lub "techniczny" defrost to go wykona.
 
-Warunki rozpoczęcia odliczania do "Indywidualnego defrostu": praca sprężarki ORAZ temperatura parownika <0C. Jeśli w czasie odliczania temperatura parownika będzie >=0C, to czas do defrostu zacznie się zwiększać. Może się tak dziać np. nad ranem, gdy temperatura zewnętzna urośnie.
+Warunki rozpoczęcia odliczania w dół do "Indywidualnego defrostu": praca sprężarki ORAZ temperatura parownika <0C. Jeśli w czasie odliczania temperatura parownika będzie >=0C, to czas do defrostu zacznie się liczyć do góry (zwiększać się). Może się tak stać np. nad ranem, gdy temperatura zewnętzna urośnie.
 
 Waruknki rozpoczęcia "Indywidualnego defrostu": odliczony  czas (nastawa "Interwał") ORAZ spełniony warunek temperaturowy (nastawa "Start defrostu").
 
