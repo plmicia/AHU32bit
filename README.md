@@ -226,6 +226,12 @@ Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualn
 
 "Defrost indywidualny" nie powoduje blokowania defrostu fabrycznego. Jeśli agregat uzna, że musi wykonać "suchy" lub "techniczny" defrost to go wykona.
 
+Warunki rozpoczęcia odliczania do "Indywidualnego defrostu": praca sprężarki ORAZ temperatura parownika <0C. Jeśli w czasie odliczania temperatura parownika będzie >=0C, to czas do defrostu zacznie się zwiększać. Może się tak dziać np. nad ranem, gdy temperatura zewnętzna urośnie.
+
+Waruknki rozpoczęcia "Indywidualnego defrostu": odliczony  czas (nastawa "Interwał") ORAZ spełniony warunek temperaturowy (nastawa "Start defrostu").
+
+Warunki zakończenia "Indywidualnego defrostu": osiągniescie zadanej temperatury na parowniku (nastawa "Koniec defrostu:") LUB minięcie nastawy czasu "Faza I (sek.):" + "Faza II (sek.):" LUB minięcie nastawy czasu "Maks. czas defrostu:".
+
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
 v3.1.3
