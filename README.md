@@ -205,7 +205,7 @@ Wartości domyślne, są zbliżone do fabrycznych.
 
 Jeśli defrosty mają być wykonywane częściej, należy zmniejszyć wartość "Interwał" np. z 90 min do 75 min lub zmienić wartość "Start defrostu" (np. zamiast wartości -4C ustawić -3C).
 Jeśli defrosty mają być wykonywane rzadziej, należy zwiększyć wartość "Interwał" np. z 90 min do 120 min lub zmienić wartość "Start defrostu" (np. zamiast wartości -4C ustawić -6C).
-Jeśli defrost ma przebiegać łagodniej, to należy poeksperymentować z nastawami: "Faza I (Hz):" oraz "Faza II (Hz):". Proszę pamiętać, że zminiejszenie tej wartości może spowodować konieczność wydłużenia defrostu (nastaw: "Faza I (sek.):", "Faza II (sek.):" oraz "Maks. czas defrostu:"
+Jeśli defrost ma przebiegać łagodniej, to należy poeksperymentować z nastawami: "Faza I (Hz):" oraz "Faza II (Hz):". Proszę pamiętać, że zminiejszenie tej wartości może spowodować konieczność wydłużenia defrostu szeczególnie nastawy "Faza II (sek.):" oraz "Maks. czas defrostu:"
 
 Dodatkowo warto zweryfikować nastawy zabezpieczeń w menu "Zabezpieczenia":
 - "Minimalna tempeartura rury cieczowej:" próg zadziałania zabezpieczenia od za niskiej temperatury na rurze cieczowej. Wartość należy dobrać do swojej instalacji eksperymentalnie. Wartość domyślna: -5C.
