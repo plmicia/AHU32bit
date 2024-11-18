@@ -97,7 +97,7 @@ v2.0.2:
 
 Poprawka błędów:
 - Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
-- 
+ 
 v3.0.5
 Video poradnik do aktualizacji: https://youtube.com/playlist?list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&si=gwIATBIfl5vukARS
 
@@ -267,3 +267,26 @@ Konsola:
 - poprawiono layout zakładki "Inne" na urządzeniach mobilnych (wyświetlanie kafelka z wersją oprogramowania)
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
+
+v3.2.3
+
+Płytka wyświetlacza LCD:
+
+- Zwiększono czytelność wprowadzania nastaw zadanej temperatury po naciśnięciu klawiszy plus i minus (wyświetlanie dodatkowego okna pop-up).
+- Zamieniono przycisk "minus" z "plus" i vice versa, aby był spójny z układem przycisków w konsoli. 
+- Zamieniono przycisk "up" z "down" i vice versa.
+- Zmieniono miejsce wyświetlania częstotliwości, tak aby była widoczna podczas przeglądania zakładek oraz menu (prawy górny róg). 
+- Dodano możliwość wyświetlenia dwóch dodatkowych parametrów na ekranie głównym. Wyboru parametrów w można dokonać w menu "Wyświetlacz LCD" ->"Pokaż na stronie głównej [pole I]" oraz "Pokaż na stronie głównej [pole II]". 
+- Poprawiono raportowanie "PWM out" podczas trwania defrostu, itp.
+- Poprawiono raportowanie częstotliwości zadanej podczas trwania defrostu oraz olejowania.
+- Dodano wyświetlanie przepływu w zakładce "Pompa obiegowa".
+- W menu "Inne" można włączyć/wyłączyć "Dźwięk alarmów" (pikanie).
+- Wydłużono czas stanu "Aktualnie pod indywidualnym defrostem" o 3 min od momentu wyłączenia sprężarki.
+- Korekta wyświetlanych wartość w zakładce "Energia", szczególnie po wyzerowaniu liczników.
+
+Konsola:
+
+- Gdy "Indywidualny defrost" włączony, dodano kafelek odliczający czasy do kolejnego defrostu i do zakończenia defrostu.
+- Poprawiono wyświetlanie flagi "Aktualnie pod defrostem" podczas trwania defrostu indywidualnego.
+- Poprawiono wysyłanie do konsoli i MQTT flagi "Aktualnie pod indywidualnym defrostem".
+- Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
