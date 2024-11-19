@@ -230,7 +230,7 @@ Warunki rozpoczęcia odliczania w dół do "Indywidualnego defrostu": praca spr�
 
 Waruknki rozpoczęcia "Indywidualnego defrostu": odliczony  czas (nastawa "Interwał") ORAZ spełniony warunek temperaturowy (nastawa "Start defrostu").
 
-Warunki zakończenia "Indywidualnego defrostu": osiągniescie zadanej temperatury na parowniku (nastawa "Koniec defrostu:") LUB minięcie nastawy czasu "Faza I (sek.):" + "Faza II (sek.):" LUB minięcie nastawy czasu "Maks. czas defrostu:".
+Warunki zakończenia "Indywidualnego defrostu": osiągnięcie zadanej temperatury na parowniku (nastawa "Koniec defrostu:") LUB minięcie nastawy czasu "Faza I (sek.):" + "Faza II (sek.):" LUB minięcie nastawy czasu "Maks. czas defrostu:".
 
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
