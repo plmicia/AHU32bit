@@ -282,6 +282,8 @@ Płytka wyświetlacza LCD:
 - Dodano wyświetlanie przepływu w zakładce "Pompa obiegowa".
 - W menu "Inne" można włączyć/wyłączyć "Dźwięk alarmów" (pikanie).
 - Wydłużono czas stanu "Aktualnie pod indywidualnym defrostem" o 3 min od momentu wyłączenia sprężarki.
+- Dodano możliwość ustawienia obrotów wentylatora JZ podczas olejowania (w mneu "Olejowanie")
+- Dodano możliwość ustawienia progu załączenia maksymalnej (810rpm) wartości obrotów wentylatora JZ (w menu "Ustawienia CO"->"Wentylator JZ")
 - Korekta wyświetlanych wartość w zakładce "Energia", szczególnie po wyzerowaniu liczników.
 
 Konsola:
