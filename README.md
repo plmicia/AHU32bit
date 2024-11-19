@@ -219,7 +219,7 @@ Zaleca się ustawić "Postcyrkulację" na minimum 5 min. w menu "Pompa obiegowa"
 Defrost indywidualny jest sygnalizowany na ekranie głównym napisem 'CUSTOM' pod ikoną śnieżynką, w momencie jego trwania. 
 Odliczany minimalny czas do kolejnego defrostu, widoczny jest w zakładce "Defrost".
 Odliczany maksymalny czas do zakończenia trwającego defrostu, widoczny jest w zakładce "Defrost".
-Praca sprężarki podczas defrostu indywidualnego rozpoczyna się po około 3 min, od ukazanie się ikonki sygnalizującej defrost ("śnieżynka").
+Praca sprężarki podczas defrostu indywidualnego rozpoczyna się po około 3 min, od ukazania się ikonki sygnalizującej defrost ("śnieżynka").
 Przełączenie na grzania po zakończeniu defrostu trwa około 3 min.
 
 Aby próbnie wywołać defrost indywidualny, należy wybrać "Wymuś indywidualny defrost". Na rozpoczęcie fazy I defrostu trzeba poczekać około 3min.
