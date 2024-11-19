@@ -268,7 +268,7 @@ Konsola:
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
 
-v3.2.3
+v3.2.X
 
 Płytka wyświetlacza LCD:
 
