@@ -268,7 +268,7 @@ Konsola:
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
 
-v3.2.X
+v3.2.6
 
 Płytka wyświetlacza LCD:
 
@@ -291,4 +291,5 @@ Konsola:
 - Gdy "Indywidualny defrost" włączony, dodano kafelek odliczający czasy do kolejnego defrostu i do zakończenia defrostu.
 - Poprawiono wyświetlanie flagi "Aktualnie pod defrostem" podczas trwania defrostu indywidualnego.
 - Poprawiono wysyłanie do konsoli i MQTT flagi "Aktualnie pod indywidualnym defrostem".
+- Dodano wyświetlanie drugiej temperatury parownika (przydatne przy diagnostyce gazowej).
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
