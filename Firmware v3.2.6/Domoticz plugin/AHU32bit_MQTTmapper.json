@@ -1,0 +1,268 @@
+{
+    "Stan sterownika": {
+        "topic": "AHU32bit/realtime/def_power_state", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Wejście CO": {
+        "topic": "AHU32bit/realtime/IN_CH_ON", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Wejście CWU": {
+        "topic": "AHU32bit/realtime/IN_DHW_ON", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Częstotliwość zadana": {
+        "topic": "AHU32bit/realtime/Compressor_command", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Częstotliwość aktualna": {
+        "topic": "AHU32bit/realtime/def_actual_freq", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Napięcie DC": {
+        "topic": "AHU32bit/realtime/def_actual_dc_voltage", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Prąd AC": {
+        "topic": "AHU32bit/realtime/def_actual_current", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Ilość załączeń": {
+        "topic": "AHU32bit/realtime/def_on_off_counter", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Łączny czas pracy": {
+        "topic": "AHU32bit/realtime/def_operation_time", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. zadana C.O.": {
+        "topic": "AHU32bit/realtime/Temp_Set_Command", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. zasilanie": {
+        "topic": "AHU32bit/realtime/Temp_Supply", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. powrót": {
+        "topic": "AHU32bit/realtime/Temp_Return", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. gaz": {
+        "topic": "AHU32bit/realtime/Temp_Gas", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. ciecz": {
+        "topic": "AHU32bit/realtime/Temp_Liquid", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. pokojowa": {
+        "topic": "AHU32bit/realtime/Temp_Room", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. zewnętrzna": {
+        "topic": "AHU32bit/realtime/def_Temp_Out", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. parownika": {
+        "topic": "AHU32bit/realtime/def_Temp_Cond", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. sprężarki": {
+        "topic": "AHU32bit/realtime/def_Temp_Disch", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. falownika": {
+        "topic": "AHU32bit/realtime/def_Temp_Module", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "P pobrana": {
+        "topic": "AHU32bit/realtime/power_consumed", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "P oddana": {
+        "topic": "AHU32bit/realtime/power_produced", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "P COP": {
+        "topic": "AHU32bit/realtime/P_COP", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CO pobrana": {
+        "topic": "AHU32bit/realtime/energy_CH_consumed", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CO oddana": {
+        "topic": "AHU32bit/realtime/energy_CH_produced", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CO COP": {
+        "topic": "AHU32bit/realtime/E_CH_COP", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CWU pobrana": {
+        "topic": "AHU32bit/realtime/energy_DWH_consumed", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CWU oddana": {
+        "topic": "AHU32bit/realtime/energy_DWH_produced", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "E CWU COP": {
+        "topic": "AHU32bit/realtime/E_DWH_COP", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Przepływ": {
+        "topic": "AHU32bit/realtime/actual_flow", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Ilość defrostów": {
+        "topic": "AHU32bit/realtime/def_defrost_counter", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Aktualnie pod defrostem": {
+        "topic": "AHU32bit/realtime/under_defrost_flag", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Pompa obiegowa": {
+        "topic": "AHU32bit/realtime/OUT_Pump_REQUEST", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "PWM out": {
+        "topic": "AHU32bit/realtime/PWM_pump_duty", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "PWM in": {
+        "topic": "AHU32bit/realtime/PWM_in_duty", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Zadana delta": {
+        "topic": "AHU32bit/realtime/def_delta_command", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Aktualna delta": {
+        "topic": "AHU32bit/realtime/Temp_delta", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "EEV": {
+        "topic": "AHU32bit/realtime/actual_EEV", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "EEV-A": {
+        "topic": "AHU32bit/realtime/actual_EEV_A", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "EEV-B": {
+        "topic": "AHU32bit/realtime/actual_EEV_B", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Wentylator ODU": {
+        "topic": "AHU32bit/realtime/def_actual_ODU_fan", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Przepływ RAW": {
+        "topic": "AHU32bit/realtime/raw_pulses_Flow", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Blokada załączenia": {
+        "topic": "AHU32bit/realtime/def_power_lock", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Typ ODU": {
+        "topic": "AHU32bit/realtime/ODU_type", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Olejowanie": {
+        "topic": "AHU32bit/realtime/oil_recovery_flag", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Odzysk czynnika": {
+        "topic": "AHU32bit/realtime/gas_recovery_flag", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Krzywa pogodowa": {
+        "topic": "AHU32bit/realtime/def_weather_curve", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "State_BYTE": {
+        "topic": "AHU32bit/realtime/LCD_state_BYTE", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Wysoka temp. zew.": {
+        "topic": "AHU32bit/realtime/CH_active_flag", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Indywidualny defrost załączony": {
+        "topic": "AHU32bit/realtime/def_custom_defrost_active", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Aktualnie pod indywidualnym defrostem": {
+        "topic": "AHU32bit/realtime/under_custom_defrost_flag", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Odliczanie do kolejnego defrostu": {
+        "topic": "AHU32bit/realtime/custom_defrost_trigg_countdown", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Odliczanie do zakończenia defrostu": {
+        "topic": "AHU32bit/realtime/custom_defrost_finish_countdown", 
+        "type": "243", "subtype": "31", "switchtype": "0",
+        "mapping": {"item": ""}
+    },
+    "Temp. parownika_2": {
+        "topic": "AHU32bit/realtime/def_Temp_Cond_2", 
+        "type": "80", "subtype": "5", "switchtype": "0",
+        "mapping": {"item": ""}
+    }
+}
+
