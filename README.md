@@ -10,11 +10,11 @@ https://youtu.be/T4DrFWYFrpU?si=GrnXhtAI3-qEB1rJ
 Jak zaktualizować firmware?
 https://youtu.be/g_uAfUcfIxk?si=aBbPRCSxZJbn4i6s
 
-v1.0.0:
+**v1.0.0:**
  
 Wersja wyjściowa
 
-v1.1.1:
+**v1.1.1:**
 
 Dodanie menu "Wyświetlacz LCD" w którym można:
 - ustawić wartość podświetlenia
@@ -32,11 +32,11 @@ Poprawka drobnych błędów:
 - likwidacja, występującego czasami, stałego pisku przy wyłączaniu alarmu
 - zapis wartości nastawionej temperatury do pamięci przy zaniku zasilania
 
-v1.1.2:
+**v1.1.2:**
 
 - poprawka błędów
 
-v1.2.3:
+**v1.2.3:**
 
 Dodanie menu "Pompa obiegowa" w którym można:
 - Ustawić postcyrkulację (opóźnienie wyłączenia pompy obiegowej)
@@ -68,7 +68,7 @@ Poprawka błędów:
 - wyeliminowanie błędu uniemożliwiającego wymuszenie defrostu, gdy T_cond < (T_zew - 6)
 - wyeliminowanie błędu uniemożliwiającego fabryczne wywołanie defrostu
 
-v2.0.0:
+**v2.0.0:**
 - dodano nagłówki, ułatwiające poruszanie się po menu
 - zmiana kroku nieczułości regulatorów CO i CWU z 0.5C na 0.1C
 - uruchomiono funkcję ciepłomierza (konieczny czujnik przepływu!)
@@ -88,17 +88,17 @@ Poprawka błędów:
 
 Uwaga!!! Aby liczniki energii działały prawidłowo, od teraz po każdej aktualizacji trzeba w pełni zrestartować system (zdjąć zasilanie z płytki bazowej na min. 20 sek.)
 
-v2.0.1:
+**v2.0.1:**
 
 Poprawka błędów:
 - aktywacja regulatora CWU
 
-v2.0.2:
+**v2.0.2:**
 
 Poprawka błędów:
 - Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
  
-v3.0.5
+**v3.0.5**
 Video poradnik do aktualizacji: https://youtube.com/playlist?list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&si=gwIATBIfl5vukARS
 
 Płytka wyświetlacza LCD:
@@ -131,7 +131,7 @@ Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
 
 MQTT dla Home Assistant wspaniale opisał @Łukasz Wojtas.
 
-v3.0.6
+**v3.0.6**
 
 Płytka wyświetlacza LCD:
 - Poprawione wyświetlanie "PWM in" w konsoli i MQTT. Poprzednio wartość była odświeżana tylko gdy na LCD była wyświetlona strona "Pompa obiegowa". 
@@ -146,7 +146,7 @@ Konsola:
 - Poprawiono wskaźnik temperatury "Falownik" dla jednostki 5kW.
 - Wersja konsoli jest wyświetlana w zakładce "Inne"
 
-v3.0.11
+**v3.0.11**
 
 UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
 Video pordanik: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
@@ -177,7 +177,7 @@ Konsola:
 
 Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
 
-v3.1.2
+**v3.1.2**
 
 Płytka wyświetlacza LCD:
 - Uruchomiono funkcję "Indywidualny defrost" w której można indywidualnie sprofilować przegieg defrostu (łagodnie/agresywnie, itp.).
@@ -234,7 +234,7 @@ Warunki zakończenia "Indywidualnego defrostu": osiągnięcie zadanej temperatur
 
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
-v3.1.3
+**v3.1.3**
 
 Aktualizacja od wersji 1.x.x lub 2.x.x :https://www.youtube.com/watch?v=skZjCgosQtY&list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&index=1&t=78s
 Aktualizacja od wersji: 3.x.x: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
@@ -268,7 +268,7 @@ Konsola:
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
 
-v3.2.6
+**v3.2.6**
 
 Płytka wyświetlacza LCD:
 
@@ -295,7 +295,7 @@ Konsola:
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
 
 
-v3.2.X
+**v3.2.X**
 
 Płytka wyświetlacza LCD:
 
