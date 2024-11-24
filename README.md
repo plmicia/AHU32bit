@@ -54,7 +54,7 @@ Poprawiono babole:
 - wysterowanie przekaźnika pompy obiegowej
 - zapisywanie do pamięci energii pobranej
 
-v1.3.4:
+**v1.3.4:**
 - wprowadzono możliwość załącznia CO w zależności od t. zew. (w menu "Ustawienia CO")
 - wprowadzono możliwość załączenia pompy obiegowej na zawsze, gdy sterownik jest załączony (w menu "Pompa obiegowa")
 - poprawiono identyfikację agregatu 7kW 
@@ -98,7 +98,7 @@ Poprawka błędów:
 Poprawka błędów:
 - Zapis wartości liczników do pamięci, zaraz po wyzerowaniu w menu. Poprzenio, po zrestowaniu sterownika wartości wracały do wartości sprzed zerowania.
  
-**v3.0.5**
+**v3.0.5:**
 Video poradnik do aktualizacji: https://youtube.com/playlist?list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&si=gwIATBIfl5vukARS
 
 Płytka wyświetlacza LCD:
@@ -131,7 +131,7 @@ Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
 
 MQTT dla Home Assistant wspaniale opisał @Łukasz Wojtas.
 
-**v3.0.6**
+**v3.0.6:**
 
 Płytka wyświetlacza LCD:
 - Poprawione wyświetlanie "PWM in" w konsoli i MQTT. Poprzednio wartość była odświeżana tylko gdy na LCD była wyświetlona strona "Pompa obiegowa". 
@@ -146,7 +146,7 @@ Konsola:
 - Poprawiono wskaźnik temperatury "Falownik" dla jednostki 5kW.
 - Wersja konsoli jest wyświetlana w zakładce "Inne"
 
-**v3.0.11**
+**v3.0.11:**
 
 UWAGA! Podczas aktualizacji bardzo ważna jest kolejność wgrywania plików!
 Video pordanik: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
@@ -177,7 +177,7 @@ Konsola:
 
 Po aktualizacji należy zresetować system (płytkę LCD i płytkę bazową).
 
-**v3.1.2**
+**v3.1.2:**
 
 Płytka wyświetlacza LCD:
 - Uruchomiono funkcję "Indywidualny defrost" w której można indywidualnie sprofilować przegieg defrostu (łagodnie/agresywnie, itp.).
@@ -234,7 +234,7 @@ Warunki zakończenia "Indywidualnego defrostu": osiągnięcie zadanej temperatur
 
 - Menu "Defrost": usunięto funkcję "Łagodny defrost" w starym wydaniu. Zastąpiono ją nową funkcją "Własny profil".
 
-**v3.1.3**
+**v3.1.3:**
 
 Aktualizacja od wersji 1.x.x lub 2.x.x :https://www.youtube.com/watch?v=skZjCgosQtY&list=PL7Yoy5k4_2IOb-d7yyhNmrepyGyvrlC-8&index=1&t=78s
 Aktualizacja od wersji: 3.x.x: https://youtu.be/dtAwadvea6k?si=yNV6m9RhdPWOf3Bx
@@ -268,7 +268,7 @@ Konsola:
 - zmieniono zakres wskaźników dla temperatur ujemnych, BYŁO: 0C - 100C, JEST -40C - 100C
 
 
-**v3.2.6**
+**v3.2.6:**
 
 Płytka wyświetlacza LCD:
 
@@ -295,7 +295,7 @@ Konsola:
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
 
 
-**v3.2.X**
+**v3.2.X:**
 
 Płytka wyświetlacza LCD:
 
