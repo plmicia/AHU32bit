@@ -303,7 +303,7 @@ Płytka wyświetlacza LCD:
 
 Możliwe nastawy:
 
-"Wykonuj" - nastawa standardowa. Gdy agregt zadecyduje o defroście (nawet suchym/technicznym) to go wykona
+"Wykonuj" - nastawa standardowa. Gdy agregt zadecyduje o defroście (nawet suchym/technicznym) to AHU nie zablokuje jego wykonania.
 
 "Pomijaj" - gdy AHU otrzyma z agregartu sygnał o rozpoczęciu fabrycznego defrostu, to wyłącza agregat i załącza grzanie ponownie. 
 
