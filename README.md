@@ -295,11 +295,11 @@ Konsola:
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
 
 
-**v3.2.X:**
+**v3.2.8:**
 
 Płytka wyświetlacza LCD:
 
-- W menu "Defrost"->"Fabryczny defrost" dodano możliwość pomijania fabrycznych defrostów (w tym suchych/technicznych).
+- W menu "Defrost"->"Fabryczne defrosty" dodano możliwość pomijania fabrycznych defrostów (w tym suchych/technicznych).
 
 Możliwe nastawy:
 
