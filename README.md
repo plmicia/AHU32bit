@@ -298,7 +298,7 @@ v3.2.X
 
 Płytka wyświetlacza LCD:
 
-- Do menu "Defrost"->"fabryczny defrost" dodano możliwość pomijania fabrycznych defrostów. Możliwe nastawy:
+- W menu "Defrost"->"Fabryczny defrost" dodano możliwość pomijania fabrycznych defrostów. Możliwe nastawy:
 "Wykonuj" - nastawa standardowa. Gdy agregt zadecyduje o defroście (nawet suchym/technicznym) to go wykona
 "Pomijaj" - gdy AHU otrzyma z agregartu sygnał o rozpoczęciu fabrycznego defrostu, to wyłącza agregat i załącza grzanie ponownie. UWAGA! Efekt uboczny: przerwa ok. 3 min w pracy agregartu! 
-  
+Nastawa "Pomijaj", będzie aktywna tylko gdy "Indywidialny defrost" ustawiony na "TAK" ORAZ "Własny profil" ustawiony na "TAK".  
