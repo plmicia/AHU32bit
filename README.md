@@ -294,6 +294,7 @@ Konsola:
 - Dodano wyświetlanie drugiej temperatury parownika (przydatne przy diagnostyce gazowej).
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
 
+
 v3.2.X
 
 Płytka wyświetlacza LCD:
