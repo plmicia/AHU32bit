@@ -293,3 +293,12 @@ Konsola:
 - Poprawiono wysyłanie do konsoli i MQTT flagi "Aktualnie pod indywidualnym defrostem".
 - Dodano wyświetlanie drugiej temperatury parownika (przydatne przy diagnostyce gazowej).
 - Dodano do protokołu MQTT wysyłanie wersji firmware LCD.
+
+v3.2.X
+
+Płytka wyświetlacza LCD:
+
+- Do menu "Defrost"->"fabryczny defrost" dodano możliwość pomijania fabrycznych defrostów. Możliwe nastawy:
+"Wykonuj" - nastawa standardowa. Gdy agregt zadecyduje o defroście (nawet suchym/technicznym) to go wykona
+"Pomijaj" - gdy AHU otrzyma z agregartu sygnał o rozpoczęciu fabrycznego defrostu, to wyłącza agregat i załącza grzanie ponownie. UWAGA! Efekt uboczny: przerwa ok. 3 min w pracy agregartu! 
+  
