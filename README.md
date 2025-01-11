@@ -316,6 +316,7 @@ Kolejność wgrywania plików inna niż zwykle:
 1. AHU32bit_Console_Firmware.bin
 2. AHU32bit_LCD_Firmware.bin
 3. AHU32bit_Console_FileSystem.bin
+   
 Wideo poradnik: https://www.youtube.com/watch?v=JyJtdb9cDpk
 
 Płytka wyświetlacza LCD:
