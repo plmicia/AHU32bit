@@ -311,6 +311,7 @@ UWAGA! Efekt uboczny: przerwa ok. 3 min w pracy agregartu!
 Nastawa "Pomijaj", będzie aktywna tylko gdy "Indywidialny defrost" ustawiony na "TAK" ORAZ "Własny profil" ustawiony na "TAK".  
 
 **v4.0.9:**
+
 UWAGA! UWAGA! UWAGA!
 Kolejność wgrywania plików inna niż zwykle:
 1. AHU32bit_Console_Firmware.bin
