@@ -309,3 +309,50 @@ Możliwe nastawy:
 
 UWAGA! Efekt uboczny: przerwa ok. 3 min w pracy agregartu! 
 Nastawa "Pomijaj", będzie aktywna tylko gdy "Indywidialny defrost" ustawiony na "TAK" ORAZ "Własny profil" ustawiony na "TAK".  
+
+**v4.0.9:**
+UWAGA! UWAGA! UWAGA!
+Kolejność wgrywania plików inna niż zwykle:
+1. AHU32bit_Console_Firmware.bin
+2. AHU32bit_LCD_Firmware.bin
+3. AHU32bit_Console_FileSystem.bin
+Wideo poradnik: https://www.youtube.com/watch?v=JyJtdb9cDpk
+
+Płytka wyświetlacza LCD:
+
+- Dodano dwupunktową linearyzację czujnika przepływu YF-B10. Poprawia dokładność liczenia mocy i energii oddanej dla małych przepływów. Szczególnie ważne dla pomp obiegowych PWM!
+Funkcję można włączyć w 'Menu'->'Ust. czujników'->'Czujnik przepływu'->'Linearyzacja'->'Dwupunktowa'.
+Wartości domyślne obowiązują dla czujnika YF-B10.
+Własne wartości można podać w parametrach, gdy parametr "Linearyzacja" jest ustawiony na "Jednopunktowa":
+"Przepływ-odczyt min.:" wartość przepływu odczytana przez AHU @ 10% PWM
+"Przepływ-znany min.:" wartość przepływu odczytana z fabrycznego ciepłomierza/miernika przepływu @ 10% PWM
+"Przepływ-odczyt max.:" wartość przepływu odczytana przez AHU @ 100% PWM
+"Przepływ-znany max.:" wartość przepływu odczytana z fabrycznego ciepłomierza/miernika przepływu @ 100% PWM
+Po podaniu własnych wartości należy przestawić parametr "Linearyzacja" na "Dwupunktowa"
+Wartości PWM dla pompy obiegowej, można zadać w trybie pracy pompy obiegowej "Stała moc" w menu "Pompa obiegowa".
+- W menu „Ustawienia CO” dodano funkcję "Łagodny rozruch CO" przybliżającą profil rozruchu do fabrycznego sterowania. Uwaga! Funkcja jest domyślnie AKTYWNA. Dezaktywacji można dokonać w menu.
+- Dodano zakładkę "Alarmy", gdzie można podejrzeć aktualne błędy AHU oraz jednostki zew. Błędy AHU32bit są opisane wraz z podpowiedzią gdzie szukać rozwiązania. Błędy agregatu opisane są zgodnie z fabrycznym opisem z dokumentacji serwisowej (po angielsku, wg. oryginalnej pisowni).
+Uwaga! Pojawienie się błędu agregatu (jednostki zewnętrznej) nie powoduje zatrzymania AHU32bit. W przypadku ustania błędu, jednostka zewnętrzna powinna powrócić do pracy.
+- Dodano zegar RTC wyświetlany na pasku górnym. Zegar można nastawić w menu "Wyświetlacz LCD"->"Zegar RTC". Zegar można też ukryć zmieniając nastawę parametru "Pokaż zegar na pasku" w tym samym menu. Aby zegar chodził po utracie zasilania, do panelu LCD należy włożyć litową bateryjkę pastylkową 3V typu CR1220. 
+- Sygnalizacja trybu "Emulacji jednostki wewnętrznej" ikonką na ekranie głównym "EMU"
+- Delikatna zmiana w regulatorze stałej delty pompy obiegowej - poprawa dynamiki. 
+- W trybie "Emulacji fabrycznej jednostki wewnętrznej" ignorowane jest "Olejowanie" oraz "Indywidualny defrost". Nastawa "Pomijaj fabryczne defrosty" również jest ignorowana.
+- Po załączeniu funkcji odzysku czynnika, pompa obiegowa jest załączana na maks. moc.
+- Poprawiono literówki w menu (np. "ź" zamiast "z" w "Dźwięk alarmów", itp.)
+- Zmodyfikowano protokół komunikacyjny między LCD a modułem komunikacyjnym ESP
+
+Konsola:
+
+- Dodano możliwość pełnego zdalnego sterowania LCD z poziomu konsoli. Z uwagi na ograniczenia sprzętowe pasma transmisyjnego widok ekranu LCD jest odświeżany około raz na sekundę. Należy mieć na uwadze delikatne opóźnienia przeglądając menu zdalnie. Wskazana cierpliwość przy modyfikowaniu nastaw. Funkcja z założenia do wykorzystania sporadycznego ;-). 
+- Zmodyfikowano obszar nastawiania temperatury zadanej. Dodano wskaźnik graficzny aktualnego przesunięcia równoległego gdy krzywa grzewcza/pogodowa jest aktywna oraz wskaźnik graficzny zadanej temperatury gdy krzywa grzewcza/pogodowa nie jest aktywna. 
+- Dodano zakładkę "Alarmy", gdzie można podejrzeć aktualne błędy AHU oraz jednostki zew. Błędy AHU32bit są opisane wraz z podpowiedzią gdzie szukać rozwiązania. Błędy agregatu opisane są zgodnie z fabrycznym opisem z dokumentacji serwisowej (po angielsku, wg. oryginalnej pisowni).
+- Dodano możliwość załączenia i wyłączenia ahu oraz modyfikacji temperatury zadanej z poziomu MQTT. UWAGA! KAŻDA ZMIANA POWODUJE ZAPIS PARAMETRÓW DO PAMIĘCI NIEULOTNEJ WYŚWIETLACZA LCD! NIE JEST ZALECANA MODYFIKACJA PARAMETRÓW W SPOSÓB CIĄGŁY (NP. REALIZACJA KRZYWEJ POGODOWEJ) Z UWAGI NA OGRANICZONĄ ILOŚĆ CYKLI ZAPISÓW DO PAMIĘCI. 
+- Zmodyfikowano protokół komunikacyjny między LCD a modułem komunikacyjnym ESP
+- Dodano do transmisji MQTT topic: "AHU32bit/realtime/LCD_firmware", gdzie raportowana jest wersja firmware LCD w postaci stringa X.X.X.
+- Zmiana biblioteki MQTT na asynchroniczną.
+
+Poprawki konsoli:
+- informacje na temat indywidualnego defrostu w zakładce "defrost" (np. odliczanie czasu, itp.) są ukrywane w trybie "Emulacji jednostki wew."
+
+Uwaga! Z uwagi na zwiększone obciążenie transmisji danych, sporadycznie (szczególnie w czasie zdalnego przeglądania menu LCD) może pojawić się glitch (zakłócenie) w transmisji. Objawia się on w postaci szpilki na wykresach z rejestracji pracy sterownika.
+
