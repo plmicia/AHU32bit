@@ -136,7 +136,7 @@ MQTT dla Home Assistant wspaniale opisał @Łukasz Wojtas.
 Płytka wyświetlacza LCD:
 - Poprawione wyświetlanie "PWM in" w konsoli i MQTT. Poprzednio wartość była odświeżana tylko gdy na LCD była wyświetlona strona "Pompa obiegowa". 
 - Poprawiono zapisywanie wartości parametru "Licz ciepło i moc" z menu "liczniki" do pamięci nieulotnej.
-- Wprowadzono możliwość podania wartości przełączenia biegów wentylatora JZ przy pracy CO. 
+- Wprowadzono możliwość podania wartości przełączenia biegów wentylatora JZ przy pracy CO. Progi dotyczą temperatury parownika i obowiązuje stała histereza 1C.
 - Organiczno zakres nastaw czujnika przepływu do 1...1000imp/l
 - Do menu "Ustawienia CO" wprowadzono możliwość ustawienie progów zmiany obrotów wentylator jednostki zewnętrznej: "Próg 390/450(490)rpm" oraz "Próg 490/690(790)rpm". Histereza jest stała i wynosi 1C.
 
