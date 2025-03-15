@@ -333,6 +333,7 @@ Własne wartości można podać w parametrach, gdy parametr "Linearyzacja" jest 
 Po podaniu własnych wartości należy przestawić parametr "Linearyzacja" na "Dwupunktowa"
 Wartości PWM dla pompy obiegowej, można zadać w trybie pracy pompy obiegowej "Stała moc" w menu "Pompa obiegowa".
 - W menu „Ustawienia CO” dodano funkcję "Łagodny rozruch CO" przybliżającą profil rozruchu do fabrycznego sterowania. Uwaga! Funkcja jest domyślnie AKTYWNA. Dezaktywacji można dokonać w menu.
+Aktywność funkcji jest sygnalizowana na wyświetlaczu za pomocą ikonki z napisem "Soft".
 - Dodano zakładkę "Alarmy", gdzie można podejrzeć aktualne błędy AHU oraz jednostki zew. Błędy AHU32bit są opisane wraz z podpowiedzią gdzie szukać rozwiązania. Błędy agregatu opisane są zgodnie z fabrycznym opisem z dokumentacji serwisowej (po angielsku, wg. oryginalnej pisowni).
 Uwaga! Pojawienie się błędu agregatu (jednostki zewnętrznej) nie powoduje zatrzymania AHU32bit. W przypadku ustania błędu, jednostka zewnętrzna powinna powrócić do pracy.
 - Dodano zegar RTC wyświetlany na pasku górnym. Zegar można nastawić w menu "Wyświetlacz LCD"->"Zegar RTC". Zegar można też ukryć zmieniając nastawę parametru "Pokaż zegar na pasku" w tym samym menu. Aby zegar chodził po utracie zasilania, do panelu LCD należy włożyć litową bateryjkę pastylkową 3V typu CR1220. 
