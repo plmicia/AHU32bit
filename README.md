@@ -359,3 +359,16 @@ Poprawki konsoli:
 
 Uwaga! Z uwagi na zwiększone obciążenie transmisji danych, sporadycznie (szczególnie w czasie zdalnego przeglądania menu LCD) może pojawić się glitch (zakłócenie) w transmisji. Objawia się on w postaci szpilki na wykresach z rejestracji pracy sterownika.
 
+**v4.1.0 oraz 4.2.0 dla nowszych jednostek 5kW (dla Grzegorza i Roberta):**
+
+Poprawka usuwa problem z zanikiem wyświetlania wskaźników w AHU32bit Console (wyczernione kafelki i brak wartości). 
+Od tej wersji wskaźniki są przechowywane lokalnie wewnątrz pamięci modułu WiFi ESP8266, nie ma potrzeby łączenia się z zewnętrznym serwerem.
+Efektem ubocznym jest delikatnie dłuższy czas ładowania AHU32bit console.
+Uwaga! Aktualizacja dotyczy jedynie AHU32bit console, LCD firmware pozostaje bez zmian.
+
+Kolejność wgrywania plkiów:
+"AHU32bit_Console_Firmware.bin":
+następnie:
+"AHU32bit_Console_FileSystem.bin"
+
+Po aktualizacji koniecznie będzie ponowne przypisanie AHU32bit do sieci lokalnej.
